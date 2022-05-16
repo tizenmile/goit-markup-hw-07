@@ -1,0 +1,63 @@
+.hero {
+  background: var(--work-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.hero-sec {
+  padding: 200px 0px 200px 0px;
+  text-align: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/ImgOverlay.jpg");
+  background-position: center;
+  background-size: 1600px 600px;
+  background-repeat: no-repeat;
+}
+
+.hero-three {
+  padding-top: 0;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--background-color);
+  width: 696px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.hero__btn {
+  background: var(--hover-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--background-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+  border-color: transparent;
+  margin-top: var(--typical-margin);
+  &:hover {
+    background-color: var(--main-btn-backgroung-color);
+  }
+  &:focus {
+    background-color: var(--main-btn-backgroung-color);
+  }
+}
+
+
+/* --------------------------- Form ------------------------------------ */
+
